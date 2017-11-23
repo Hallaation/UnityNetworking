@@ -7,3 +7,5 @@ Library/
 *.csproj
 
 \.vs/
+
+Temp/
