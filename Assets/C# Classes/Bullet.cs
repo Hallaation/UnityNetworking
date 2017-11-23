@@ -9,6 +9,7 @@ public class Bullet : NetworkBehaviour
     private Rigidbody _rigidbody;
     private ParticleSystem _ps;
     // Use this for initialization
+
     void Start()
     {
         _transform = this.transform;
@@ -19,9 +20,8 @@ public class Bullet : NetworkBehaviour
     // Update is called once per frame
     void Update()
     {
-
+   
     }
-
 
     private void FixedUpdate()
     {
@@ -37,7 +37,6 @@ public class Bullet : NetworkBehaviour
 
 public class RegisterHostMessage : MessageBase
 {
-
     public string gameName;
     public string comment;
     public bool passwordProtected;
